@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="div1">
+        <h1>Cadastro de Alunos</h1>
+    </div>
+
+</div>
+<div class="container2">
+
+<div class="container_formulario">
+    <form action="http://localhost:3000/cadastro" method="post">
+
+        <input type="text" name="nome" placeholder="Digite seu nome: ">
+        <br>
+        <input type="number" name="rg" placeholder="Digite seu RG:">
+        <br>
+        <input type="number" name="cpf" placeholder="Digite seu CPF:">
+        <br>
+        <input type="number" name="tel" placeholder="Digite seu telefone:">
+        <br>
+        <input type="text" name="endereco" placeholder="Digite seu endereço:">
+        <br>
+        <input type="text" name="formadepagamento" placeholder="Forma de pagamento:">
+        <br>
+        <input type="submit" value="Enviar" id="botao">
+
+    
+
+    </form>
+</div>
+</div>
+
+
+    <style>
+
+body{
+    background: rgb(147, 193, 236);
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100;
+    background: rgb(124, 183, 238);
+    color: white;
+     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container_formulario{
+    width: 39%;
+    height: 550px;
+    border: 108px;
+    margin: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 186, 219);
+    border-radius: 5px;
+    border: none;
+    
+}
+
+input{
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+#botao{
+    width: 100px;
+    background: rgb(73, 162, 235);
+    color: white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</body>
+</html>
